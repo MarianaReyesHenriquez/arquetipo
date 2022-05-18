@@ -1,0 +1,26 @@
+environments:
+  list:
+    - environment:
+        id: 1
+        name: local
+        description: local environments
+        url: http://
+        user: user
+        pass: pass
+        authMethod: basic
+    - environment:
+        id: 2
+        name: prd
+        description: prd environments
+        url: http://
+        user: user
+        pass: pass
+        authMethod: basic
+    - environment:
+        id: 3
+        name: pre-prd
+        description: pre-prd environments
+        url: http://
+        user: user
+        pass: pass
+        authMethod: basic
