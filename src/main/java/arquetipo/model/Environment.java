@@ -4,14 +4,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
-
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Data
-@Component
-@ConfigurationProperties(prefix = "environments")
+@Data @NoArgsConstructor
 public class Environment {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
